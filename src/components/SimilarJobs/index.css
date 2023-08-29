@@ -1,0 +1,85 @@
+.similar-job-li-con {
+  color: #ffffff;
+  list-style: none;
+  background-color: #272727;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.img-job-title-con {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.company-job-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.title-job-rating-con {
+  margin-top: 0;
+}
+
+.title-job-heading {
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 5px;
+  font-size: 100%;
+  margin-bottom: 15px;
+}
+.star-job-rating-con {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+.star-job-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.rating-job-text {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 5px;
+}
+.sec-part-job-con {
+}
+.des-job-heading {
+}
+.des-job-para {
+}
+.location-job-details-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.location-icon-con {
+  display: flex;
+  flex-direction: row;
+}
+.location-job-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.location-job {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.employment-job-type-con {
+}
+.job-type {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .similar-job-li-con {
+    width: 100%;
+  }
+  .title-job-heading {
+    font-size: 20px;
+  }
+}
