@@ -129,7 +129,7 @@ class AllJobs extends Component {
         apiJobStatus: apiStatusConstants.success,
       })
     } else {
-      this.setState({apiStatus: apiStatusConstants.failure})
+      this.setState({apiJobStatus: apiStatusConstants.failure})
     }
   }
 
@@ -333,7 +333,7 @@ class AllJobs extends Component {
         <div className="body-con">
           <div className="sm-search-con">{this.onRenderSearch()}</div>
           <div className="side-bar-con">
-            {this.onRenderProfile()}
+            {this.onRenderJobs()}
             <hr className="hr-line" />
             <h1 className="text">Type pf Employment</h1>
             {this.onGetCheckBoxesView()}
@@ -352,3 +352,10 @@ class AllJobs extends Component {
 }
 
 export default AllJobs
+
+
+
+
+
+
+
